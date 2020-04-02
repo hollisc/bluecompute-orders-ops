@@ -13,6 +13,9 @@ metadata:
     chart: orders-0.6.0
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: "orders"   
   template:
     metadata:
       labels:
