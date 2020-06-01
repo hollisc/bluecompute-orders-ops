@@ -59,7 +59,7 @@ spec:
               key: mariadb-password
       containers:
       - name: "orders"
-        image: "ibmcase/bluecompute-orders:0.6.0
+        image: "ibmcase/bluecompute-orders:0.6.0"
         imagePullPolicy: "Always"
         volumeMounts:
         - mountPath: /spring-tmp
